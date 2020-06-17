@@ -6,6 +6,10 @@
 // Q7
 // Returns a new list with all the elements of lst that are length greater than 5
 function keepLong(lst) {
+let filtered = lst.filter(function(longer){
+  return longer.length >5;
+})
+return filtered;
   // lst is an array of strings
 }
 // -------------------------------------------------------------------------
