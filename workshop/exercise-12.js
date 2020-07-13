@@ -9,7 +9,7 @@
 // <100 is A
 
 // Write function here
-let gradeArray = [48, 95, 65, 48, 59, 78, 72, 65];
+let gradeArray1 = [48, 95, 65, 48, 59, 78, 72, 65];
 let gradeArray2 = [58, 65, 60, 82, 74, 4, 50, 51, 48, 95, 27, 92, 100];
 
 function gradeConverter(arr) {
@@ -30,6 +30,6 @@ function gradeConverter(arr) {
 }
 
 // Call the function with [48, 95, 65, 48, 59, 78, 72, 65]
-console.log(gradeConverter(gradeArray));
+console.log(gradeConverter(gradeArray1));
 // Try with other values as well
 console.log(gradeConverter(gradeArray2));
